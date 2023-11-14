@@ -7,6 +7,7 @@ Akero Therapeutics, Viking Therapeutics, Novo Nordisk, and a number of other bio
 ## Source(s): 
 https://www.kaggle.com/datasets/fedesoriano/cirrhosis-prediction-dataset \
 The dataset from Kaggle contains 418 patient records with data on fibrosis stage, age, sex, height, weight, and a number of blood tests including cholesterol levels.
+Another potential source comes from Synthea, hosted on google cloud. Synthea contains synthetic electronic health records.
 
 ## Context: 
 Fatty liver disease is marked by liver fibrosis, which is categorized into 4 stages. More advanced stages of fibrosis are associated with greater liver damage, which can be identified using blood tests. Qualification for developing therapies is restricted to more advanced tages of fibrosis. By analyzing a series of blood tests and considering patient information such as age, sex, height, and weight, it should be possible to accurately predict the different stages of liver fibrosis. If an accurate model can be developed, then it can facilitate enrollment for clinical trials and, should a therapy be approved, expand access to care. 
