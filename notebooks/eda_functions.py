@@ -42,7 +42,7 @@ def bs_median_by_stage(df, col, m=10000, n=100, p1=2.5, p2=97.5):
 def add_apri_fib4_albi(df):
     df['APRI'] = df['SGOT']/40/df['Platelets']*100
     df['FIB-4'] = (df['Age']/365.25)*df['SGOT']/(df['Platelets']*np.sqrt(df['Alk_Phos']))
-    df['ALBI'] = 0.66*np.log(df['Bilirubin']*100000/584.66 - 0.085*df['Albumin']*100)
+    df['ALBI'] = np.log(0.66*df['Bilirubin']*10000/584.66) - 0.085*df['Albumin']*10
     
     return df
 
